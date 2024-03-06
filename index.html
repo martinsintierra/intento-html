@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Valor</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: "Georgia", "sans sheriff", monospace;
+            background: linear-gradient(to right, rgb(161, 161, 185), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+        }
+
+        .lif {
+            float: left;
+        }
+
+        .l1 {
+            float: right;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #f8eeee;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Prueba de Valor</h1>
+        <nav>
+            <ul>
+                <li class="lif"><a class="active" href="index.html">Inicio</a></li>
+                <li class="lif"><a href="catalogo.html">Catálogo</a></li>
+                <li class="lif"><a href="contacto.html">Pedido</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">
+        <em>Todo lo sagrado es profanado.</em>
+    </h2>
+    <hr>
+
+    <article class="container">
+        <h2>¡Algunos de mis los proyectos!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit distinctio maiores non? Similique earum
+            veniam sapiente deleniti quod, perferendis quasi quidem sed officiis dignissimos corporis reprehenderit
+            voluptatem, autem, adipisci tempore!</p>
+
+        <div style="width:800px; margin:0 auto; float: right;">
+            <img class="image" src="assets/image/joni mitchell.jpeg" alt="Joni Mitchell">
+            <h3 style="text-align: right;"">" Blue" de Joni Mitchell.</h3>
+                <ul style="text-align: right;">
+                    <li>Tapa, ancho 13,5 cm x alto 16,5 / Cuadernillos, ancho 13cm x alto 15,5 cm </li>
+                    <li>80 hojas de papel ecológico</li>
+                    <li>Costura copta</li>
+                    <li>Tapa hecha en cianotipo sobre tela 100% lino</li>
+                    <li>Contratapa de cuerina azul con esquineras de metal para más protección</li>
+                </ul>
+        </div>
+        <div style="width:800px; margin:0 auto; float: left;">
+            <img class="image2" src="assets/image/beatriz.jpeg" alt="Beatriz Sarlo">
+            <h3>Beatriz Sarlo y la Asistente Flora </h3>
+            <ul>
+                <li>80 hojas de papel ecológico</li>
+                <li>Tapa hecha en cianotipo sobre una tela antigua que reciclé 100% lino</li>
+                <li>Contratapa de cuerina, todo cosido con costura copta</li>
+            </ul>
+        </div>
+        <div style="width:800px; margin:0 auto;float: right;">
+            <img class="image" src="assets/image/rejunte.jpeg" alt="Minilibretas en stock">
+            <h3 style="text-align: right;">¡Libretas Varias!</h3>
+            <ul style="text-align: right;">
+                <li>30 hojas de papel ecológico nat</li>
+                <li>Tamaño A6</li>
+                <li>Tapas hechas en cianotipo sobre papel texturado de 210gr, algunas tonalizadas con té, café o yerba
+                    mate
+                </li>
+                <li>Cosidas con costura simple o cadeneta</li>
+                <li>Esquinas redondeadas</li>
+            </ul>
+        </div>
+        
+    </article>
+
+    <div style="display: flex; width: 800px; margin: 20px auto; height: auto; border: 1px solid black; clear: both;">
+        <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6568.385007630813!2d-58.425584655731384!3d-34.59929339182313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca63d00e34f3%3A0x5e9a62e559d5554e!2sMedrano!5e0!3m2!1ses-419!2sar!4v1709740261437!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div style="padding-left: 20px;">
+                <h3>Punto de entrega.</h3>
+                <p>Acá podemos encontrarnos para coordinar la entrega de tu pedido.</p>
+            </div>
+        </div>
+        
+    <footer class="footer">
+
+        <a style="color: aquamarine; font-size: large;" href="https://www.instagram.com/pruebadevalor/"
+            target="_blank">Instagram</a>
+    </footer>
+
+</body>
+
+</html>

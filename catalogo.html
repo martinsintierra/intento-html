@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Valor</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: "Georgia", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(161, 161, 185), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Prueba de Valor</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="active" href="catalogo.html">Catálogo</a></li>
+                <li><a href="contacto.html">Pedido</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">Catálogo</h2>
+
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: aliceblue;">
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <th></th>
+            <th>Medidas</th>
+            <th>Tiempo de Entrega</th>
+            <th>Precio</th>
+
+            <tr>
+                <td>Estándar(A4)</td>
+                <td>21 x 29,7 cm</td>
+                <td>Una semana y media</td>
+                <td>$6000</td>
+            </tr>
+            <tr>
+                <td>Chica(A5)</td>
+                <td>14,8 x 21 cm</td>
+                <td>Una semana</td>
+                <td>$5000</td>
+            </tr>
+            <tr>
+                <td>Libretita(A6)</td>
+                <td>10,5 x 14,8 cm</td>
+                <td>Una semana</td>
+                <td>$4000</td>
+            </tr>
+        </table>
+    </div>
+    <br><br>
+    <div class="centrado">
+        <audio src="assets/audio/04 Baby Lulu.mp3" autoplay controls></audio>
+    </div>
+    <br><br>
+    <div class="centrado"><strong>¡Algunos de los modelos disponibles!</strong></div>
+    <section class="centrado">
+        <div class="gallery">
+            <img src="assets/image/canada.png" alt="Boards of Canada" width="300">
+            <div class="desc">Boards of Canada</div>
+        </div>
+        <div>
+            <img a src="assets/image/escalada.png" alt="Estación de Escalada" width="300">
+            <div class="desc">Estación de Escalada</div>
+        </div class="gallery">
+        <div>
+            <img src="assets/image/fiona.png" alt="Fiona Apple" width="300">
+            <div class="desc">Fiona Apple</div>
+        </div>
+        <div class="gallery">
+            <img src="assets/image/parade.jpeg" alt="Funeral Parade of Roses" width="300">
+            <div class="desc">Funeral Parade of Roses</div>
+        </div>
+        <div class="gallery">
+            <img src="assets/image/tita.png" alt="Tita Merello" width="300">
+            <div class="desc">Tita Merello</div>
+        </div>
+        <div class="gallery">
+            <img src="assets/image/mew.png" alt="María Elena Walsh" width="300">
+            <div class="desc">María Elena Walsh</div>
+        </div>
+        <div class="gallery">
+            <img src="assets/image/joni mitchell.jpeg" alt="Joni Mitchell" width="300">
+            <div class="desc">Joni Mitchell</div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+
+        <a style="color: aquamarine; font-size: large;" href="https://www.instagram.com/pruebadevalor/"
+            target="_blank">Instagram</a>
+    </footer>
+
+</body>
+
+</html>
